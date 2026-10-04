@@ -6,15 +6,15 @@
 - `support.html`：使用說明與公開 GitHub Issues 回報。
 - `privacy.html`：App 及此網站的資料處理方式。
 
-預計公開 repository：`janmice/eclipse-app-support`。
+公開 repository：[janmice/eclipse-app-support](https://github.com/janmice/eclipse-app-support)。
 
-**以下網址仍是待驗證的發布目的地，不代表已上線：**
+以下頁面已透過 GitHub Pages 的 `main` 分支發布，2026-10-04 以 HTTPS 取回並確認與原始 HTML 完全相符：
 
 - 首頁：<https://janmice.github.io/eclipse-app-support/>
 - Support URL：<https://janmice.github.io/eclipse-app-support/support.html>
 - Privacy Policy URL：<https://janmice.github.io/eclipse-app-support/privacy.html>
 - 問題回報：<https://github.com/janmice/eclipse-app-support/issues>
 
-發布時只上傳本資料夾中的網站檔案，不包含 App 原始碼、簽署資料或帳本。啟用 GitHub Pages 後，應逐一驗證公開頁面、相對連結與 Issues 是否能正常開啟，再填入 App Store Connect。
+此 repository 只包含本資料夾的網站檔案，不包含 App 原始碼、簽署資料或帳本。公開隱私政策的畫面證據保存在交付資料夾的 `Evidence/Privacy-Published.jpg`；HTTP 內容比對在 `Evidence/PublicWebsite.json`。
 
-App 設定頁可新增「使用說明」與「隱私政策」連結，分別使用上述 Support URL 與 Privacy Policy URL；須在公開網址驗證完成後採用。
+App 設定頁已加入「使用說明」與「隱私政策」入口。這些網址已可供 App Store Connect 使用，但商店版本尚未提交。
